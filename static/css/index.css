@@ -24,7 +24,12 @@
 body {
   min-height: 100vh;
 }
-
+.aimgray {
+  color: #d8d8d8;
+}
+.aimgray a:hover {
+  color: #666666;
+}
 .custom-img {
   min-width: 500px;
   width: auto; /* Adjust as needed */
@@ -200,6 +205,7 @@ nav {
   --lightblack: #292a2d;
   --primary: white;
   --secondary: #fff;
+  --aimgray: #d8d8d8;
 }
 footer {
   background-color: gray;
@@ -326,6 +332,7 @@ footer .nav-link {
   }
 }
 
-.tab-content {
-  background-color: ;
+/* .tab-content {
+  background-color: blank;
 }
+ */
