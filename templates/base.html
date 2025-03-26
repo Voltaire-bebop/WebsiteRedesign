@@ -110,7 +110,7 @@
   </script>
   <body class="d-flex flex-column min-vh-100">
     <header>
-      <nav class="navbar fixed-top navbar-expand-xl">
+      <nav class="navbar theme-bg navbar-expand-xl">
         <div class="container-fluid">
           <button class="navbar-toggler"
                   type="button"
@@ -123,7 +123,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mb-2 mb-lg-0">
-              <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
+              <a class="nav-link active" aria-current="page" href="{% url 'index' %}"><img class="navbar-img" src="{% static 'images/aim.jpeg' %}"></a>
               <div class="dropdown">
                 <a class="nav-link dropdown-toggle"
                    href="{% page_url 'collaborative' %}"
